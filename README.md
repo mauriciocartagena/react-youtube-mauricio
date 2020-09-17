@@ -1,5 +1,17 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+## Tomar nota
+
+deben de crearse una api entrando al siguiente link.<br />
+
+https://console.developers.google.com/apis/credentials
+
+deben de modificar el key en la directorio de src/components/helpers/getImages.js.<br />
+
+Eso es todo :D
+
+
 ## Available Scripts
 
 In the project directory, you can run:
