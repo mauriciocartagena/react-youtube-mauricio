@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 
 export const AddNewSearch = ( { setSearch } ) => {
 
@@ -18,7 +18,6 @@ export const AddNewSearch = ( { setSearch } ) => {
         }
 
     }
-
 
     return (
         <form onSubmit={ handleSubmit } >

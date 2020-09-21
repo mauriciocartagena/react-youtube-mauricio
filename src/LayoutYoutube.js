@@ -7,6 +7,7 @@ export const LayoutYoutube = ( { defaultSearch = [] } ) => {
 
     const [search, setSearch] = useState(defaultSearch);
 
+
     return (
         <div className="text-center">
            <h1>Youtube Mauricio</h1> 
