@@ -6,6 +6,8 @@ https://mauriciocartagena.github.io/react-youtube-mauricio/
 
 ## Tomar nota
 
+Ya se puede descargar los videos de youtube :D <br />
+
 deben de crearse una api entrando al siguiente link.<br />
 
 https://console.developers.google.com/apis/credentials
