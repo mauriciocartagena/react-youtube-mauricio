@@ -16,6 +16,9 @@ deben de modificar el key en la directorio de src/components/helpers/getImages.j
 
 Eso es todo :D
 
+![ScreenShot]()
+
+
 
 ## Available Scripts
 
