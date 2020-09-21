@@ -16,7 +16,7 @@ deben de modificar el key en la directorio de src/components/helpers/getImages.j
 
 Eso es todo :D
 
-![ScreenShot]()
+![ScreenShot](https://raw.githubusercontent.com/mauriciocartagena/react-youtube-mauricio/master/src/img/img1.png)
 
 
 
