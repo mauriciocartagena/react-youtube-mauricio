@@ -1,1 +1,0 @@
-{"version":3,"sources":["videoDowload.css","LayoutYoutube.css"],"names":[],"mappings":"AAAA,OACI,SACJ,CCAA,KACI,YACJ","file":"main.005197cc.chunk.css","sourcesContent":[".video{\n    width: 50%;\n}","\n\nbody {\n    padding: 75px;\n}"]}

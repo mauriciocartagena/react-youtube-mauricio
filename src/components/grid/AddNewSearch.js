@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import '../../styles/components/AddNewSearch.css';
 
 export const AddNewSearch = ( { setSearch } ) => {
 
@@ -21,13 +22,20 @@ export const AddNewSearch = ( { setSearch } ) => {
 
     return (
         <form onSubmit={ handleSubmit } >
-            <input
-                className="form-control"
-                type="text"
-                value={ inputValue }
-                onChange={ (e)=> handleInputChange(e) }
-            >
-            </input>
+            
+            <div className="input-group">
+                    <input
+                        className="form-control search"
+                        type="text"
+                        value={ inputValue }
+                        placeholder="Ingrese palabra a buscar"
+                        onChange={ (e)=> handleInputChange(e) }
+                    />
+                    <div className="input-group-append">
+                        <button className="icon-search fa fa-search fa-2x" type= "submit" />
+                    </div>
+            </div>
+            
         </form>
     )
 }

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { AddNewSearch } from './components/grid/AddNewSearch';
 import { GridItem } from './components/grid/GridItem';
-import './LayoutYoutube.css'
+import './styles/LayoutYoutube.css'
 
 export const LayoutYoutube = ( { defaultSearch = [] } ) => {
 
@@ -9,7 +9,7 @@ export const LayoutYoutube = ( { defaultSearch = [] } ) => {
 
 
     return (
-        <div className="text-center">
+        <div className="text-center title">
            <h1>Youtube Mauricio</h1> 
             <hr/>
 
