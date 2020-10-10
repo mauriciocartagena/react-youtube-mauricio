@@ -16,12 +16,7 @@ export const GridItemImage = ( { title, url, urlVideo} ) => {
 
     return (
         <>
-            <div className="animate__animated animate__fadeIn">
-                {   
-                state && <VideoDowload url={ urlVideo } />
-                }
-                <hr/>
-                
+            <div className="animate__animated animate__fadeIn"> 
                 <h3>{ title }</h3>
                 <img    
                         onClick={ ()=> handleChangeValue() }
@@ -40,6 +35,10 @@ export const GridItemImage = ( { title, url, urlVideo} ) => {
             >
                 Seleccionar
             </button>
+            {   
+                state && <VideoDowload url={ urlVideo } />
+            }
+            <hr/>
         </>
     )
 }
