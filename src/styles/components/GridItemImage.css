@@ -1,0 +1,14 @@
+.img-fluid{
+    width: 60%;
+    height: 60%;
+    padding-bottom: 20px;
+}
+.selectVideo{
+    border: 1px solid #95ca3e;
+    background-color: #95ca3e;
+    color: #121f3d;
+    font-weight: bolder;
+}
+.selectVideo:focus{
+    outline: none;
+}

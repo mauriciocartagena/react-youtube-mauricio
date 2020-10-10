@@ -1,6 +1,7 @@
 import React from 'react';
 import { useFecthVideo } from '../hooks/useFecthVideo';
-import './videoDowload.css';
+import { Loading } from '../utils/Loading';
+import '../../styles/components/VideoDowload.css';
 
 export const VideoDowload = ( {  url } ) => {
 
@@ -10,16 +11,22 @@ export const VideoDowload = ( {  url } ) => {
 
         <>
         {
-            loading && <p className="animate__animated animate__flash">Loading...</p>
+            loading && <Loading  
+                            type ={ 'spin' } 
+                            color={ '#95ca3e' }  
+                            name={'Loading'}
+                        />
         }
-            <div className="container-fluid">
+            <div className="container-fluid player">
                 {
                     videoUrl.map((video,i)=>{
                         return (
-                            <video controls className="video" key={ i }>
-                                <source src= { video.url } type="video/mp4" />
-                                <source src= { video.url } type="video/ogg" />
-                            </video>
+                            <div  key={ i } className="animate__animated animate__zoomInDown">
+                                <video controls autoPlay className="video" >
+                                    <source src={ video.url } type="video/mp4"></source>
+                                    <source src= { video.url } type="video/ogg" />
+                                </video>
+                            </div>
                         );
                     })
                 }

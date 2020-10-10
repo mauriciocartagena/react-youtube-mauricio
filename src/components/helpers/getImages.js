@@ -1,7 +1,7 @@
 
 export const getImages = async( nameSearch  ) => {
    
-    const key = 'AIzaSyDEoll5nJ_PLZwCUlai6EnV1Nb1y0T0qlk';
+    const key = 'AIzaSyCzmcLX7Bdf2wmxp8pzYkKDi3NYvoWnpPw';
 
     const url = `https://www.googleapis.com/youtube/v3/search?key=${ key }&part=snippet&q=${ nameSearch }`;
 

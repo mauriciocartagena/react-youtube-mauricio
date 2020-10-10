@@ -1,5 +1,6 @@
 import React from 'react';
 import { useFetchImages } from '../hooks/useFetchImages';
+import { Loading } from '../utils/Loading';
 import { GridItemImage } from './GridItemImage';
 
 export const GridItem = ({ nameSearch }) => {
@@ -10,7 +11,11 @@ export const GridItem = ({ nameSearch }) => {
 
         <>
             {
-                loading && <p className="animate__animated animate__flash">Loading...</p>
+                loading && <Loading  
+                                type ={ 'spin' } 
+                                color={ '#95ca3e' }  
+                                name={'Loading'}
+                            />
             }
             <div>
                 {

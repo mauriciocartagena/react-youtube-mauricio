@@ -9,24 +9,22 @@ export const LayoutYoutube = ( { defaultSearch = [] } ) => {
 
 
     return (
-        <div className="text-center title">
+        <div className="title">
            <h1>Youtube Mauricio</h1> 
             <hr/>
 
             <AddNewSearch setSearch={ setSearch } ></AddNewSearch>
+            <ol>
+                {   
+                    search.map(( image )=>(
+                        <GridItem
+                            key={ image }
+                            nameSearch={ image }
+                        />
+                    ))
 
-        <ol>
-            {   
-                search.map(( image )=>(
-
-                    <GridItem
-                        key={ image }
-                        nameSearch={ image }
-                    />
-                ))
-
-            }
-        </ol>
+                }
+            </ol>
         </div>
     )
 }
